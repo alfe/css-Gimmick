@@ -10,22 +10,60 @@
 		}
 
 		div {
+			position: fixed;
+			top: 200px;
+			left: calc(50vw - 150px);
 			width: 300px;
 			height: 300px;
-			margin: 200px auto;
-			background-color: #FFFFFF;
+			background-color: #d167ff;
 		}
-
-		#circle {
-			border-radius: random(50) 100% 50% 50% / 0% 50% 50% 100%;
-			transform: rotate(45deg);
+		
+		#circle1 {
+			border-radius: 20% 50% 50% 50% / 20% 50% 50% 50%;
+			transform: rotate(60deg);
+		}
+		#circle2 {
+			border-radius: 20% 50% 50% 50% / 20% 50% 50% 50%;
+			transform: rotate(30deg);
+		}
+		#circle3 {
+			border-radius: 10% 50% 50% 50% / 10% 50% 50% 50%;
+			transform: rotate(-30deg);
+		}
+		#circle4 {
+			border-radius: 10% 50% 50% 50% / 10% 50% 50% 50%;
+			transform: rotate(120deg);
+		}
+		#circle6 {
+			border-radius: 20% 50% 50% 50% / 20% 50% 50% 50%;
+			transform: rotate(-95deg);
+		}
+		#circle5 {
+			border-radius: 20% 50% 50% 50% / 20% 50% 50% 50%;
+			transform: rotate(185deg);
+		}
+		
+		#eye {
+			position: fixed;
+			top: 205px;
+			left: calc(50vw - 75px);
+			color: #333;
+			font-weight: bold;
+			font-size: 50px;
+			border-bottom: 2px solid #333;
 		}
 
 	</style>
 </head>
 
 <body>
-	<div id='circle'></div>
+	<div id='circle1'></div>
+	<div id='circle2'></div>
+	<div id='circle3'></div>
+	<div id='circle4'></div>
+	<div id='circle5'></div>
+	<div id='circle6'></div>
+	<span id="eye">・　・</span>
 </body>
 
 </html>
