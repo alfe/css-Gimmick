@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+	<style>
+		@font-face {
+			font-family: "genkai";
+			src: url("genkai-mincho.woff")  format('woff');
+		}
+		.genkaiClass {
+			font-family: "genkai";
+		}
+		body {
+			background:
+			repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 60px),
+			repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 60px),
+			linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+			linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+			#666;
+			background-size: 70px 120px;
+		}
+		#box {
+			width: 350px;
+			height: 220px;
+			background: rgba(0,0,0,.5);
+			border-radius: 5px;
+			box-shadow: 0 0 10px #FFFFFF, 0 0 20px #aaF, 0 0 40px #FFFFFF;
+			padding: 30px;
+			margin: 63px;
+		}
+		#box h1 {
+			color: #FFFFFF;
+			font-weight: 800;
+			font-size: 3.4em;
+			text-align: center;
+			margin: 20px 0;
+			font-family: "genkai";
+		}
+		#box h1 .t1 {
+			position: relative;
+			left: -100px;
+		}
+		#box h1 .t2 {
+			font-size: 2.2em;
+			position: relative;
+			left: -50px;
+		}
+		#box h1 .t3 {
+			position: relative;
+			left: 120px;
+			top: -80px;
+		}
+		#chou {
+			position: relative;
+			top: 250px;
+			padding: 30px;
+			font-family: "Mplus 1p";
+			font-size: 2.0em;
+			color: #FFFFFF;
+			text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+		}
+	</style>
+</head>
+
+<body>
+	<div id='box'>
+		<h1>
+			<span class="t1">超絶</span><br/>
+			<span class="t2">CSS</span><br/>
+			<span class="t3">技法</span>
+		</h1>
+	</div>
+	<p id="chou">超未来工房</p>
+</body>
+
+</html>
